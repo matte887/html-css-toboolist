@@ -21,9 +21,9 @@ body {
     margin-top: 2em;
 }
 
-.ptl-2 {
+.ptl {
     padding-top: 30px;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 /* HEADER */
@@ -47,7 +47,7 @@ header {
 
 /* NAV */
 nav .container {
-    padding: 20px 0px 20px 40px;
+    padding: 20px 0px 20px 60px;
 }
 
 #task-button, #section-button {
@@ -66,28 +66,31 @@ nav .container {
 #section-button {
     background-color: white;
     color: rgba(0, 0, 0, .7);
-    border-width: 1px; 
+    border-width: 1px;
 }
 
 /* MAIN */
 main .container {
     margin-top: 2px;
+    padding-bottom: 60px;
 }
 
 main ul {
     list-style: none;
 }
 
-main li {
-    padding-top: .5em;
+main .list-item {
+    padding-top: 1em;
     vertical-align: middle;
 }
 
-.checkmark {
-    color: #76c8b5;
+main .list-head {
+    padding-top: 1.5em;
+}
+
+main .mark {
     border-width: 1px;
     border-style: solid;
-    border-color: #76c8b5;
     border-radius: 50%;
     width: 16px;
     height: 16px;
@@ -95,13 +98,49 @@ main li {
     text-align: center;
     line-height: 16px;
     margin-right: 1em;
-    font-size: 12px;
+    font-size: .7em;
     vertical-align: middle;
     font-weight: bold;
 }
 
-.label {
-    background-color: #45abea;
+main .check.mark {
+    color: #76c8b5;
+    border-color: #76c8b5;
+}
+
+main .cross.mark {
+    color: #eb5953;
+    border-color: #eb5953;
+}
+
+main ul .label {
     color: white;
-    
+    padding: .7em;
+    border-radius: 10px;
+    font-size: .7em;
+    margin-left: .5em;
+}
+
+main .label.blue {
+    background-color: #45abea;
+}
+
+main .label.purple {
+    background-color: #9c72e4;
+}
+
+main .label.aqua {
+    background-color: #64c0a9;
+}
+
+main .label.orange {
+    background-color: #f29e33;
+}
+
+main .label.pink {
+    background-color: #d863a1;
+}
+
+main .label.green {
+    background-color: #b0c926;
 }
