@@ -7,11 +7,26 @@
 }
 
 /* COMMON */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
 /* HEADER */
 header {
     height: 100px;
     line-height: 100px;
     padding-left: 2%;
+    background-color: white;
 }
 
 #logo-image {
@@ -25,7 +40,28 @@ header {
     vertical-align: middle;    
 }
 
-/* MAIN */
-main {
-    background-color: #f6f8f9;
+/* NAV */
+nav .container {
+    padding: 20px 0px 20px 40px;
 }
+
+#task-button, #section-button {
+    padding: .7%;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#task-button {
+    background-color: #47adf1;
+    color: white;
+    border-width: 1px;
+    border-color: #47adf1;
+}
+
+#section-button {
+    background-color: white;
+    color: rgba(0, 0, 0, .7);
+    border-width: 1px; 
+}
+
+/* MAIN */
