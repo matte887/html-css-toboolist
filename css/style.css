@@ -50,7 +50,7 @@ nav .container {
     padding: 20px 0px 20px 60px;
 }
 
-#task-button, #section-button {
+nav button {
     padding: .7%;
     border-radius: 5px;
     border-style: solid;
