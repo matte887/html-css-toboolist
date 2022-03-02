@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* COMMON */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -81,7 +84,6 @@ main ul {
 
 main .list-item {
     padding-top: 1em;
-    vertical-align: middle;
 }
 
 main .list-head {
@@ -93,15 +95,13 @@ main .list-head {
 main .mark {
     width: 16px;
     height: 16px;
-    border-width: 1px;
+    border: 1px solid;
     border-radius: 50%;
     margin-right: 1em;
     font-size: .6em;
     font-weight: bold;
     text-align: center;
-    border-style: solid;
     line-height: 16px;
-    vertical-align: middle;
     display: inline-block;
 }
 
